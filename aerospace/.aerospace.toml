@@ -8,16 +8,21 @@ focus-follows-mouse.enabled = true
 gaps.inner.horizontal = 4
 gaps.inner.vertical = 4
 
-[mode.main.binding]
-alt-left = 'focus left'
-alt-down = 'focus down'
-alt-up = 'focus up'
-alt-right = 'focus right'
+on-window-detected = [
+    { if.app-id = 'com.spotify.client', run = 'layout floating' },
+    { if.app-id = 'com.apple.Terminal', run = 'layout floating' },
+]
 
-alt-shift-left = 'move left'
-alt-shift-down = 'move down'
-alt-shift-up = 'move up'
-alt-shift-right = 'move right'
+[mode.main.binding]
+alt-semicolon = 'focus left'
+alt-slash = 'focus down'
+alt-leftSquareBracket = 'focus up'
+alt-quote = 'focus right'
+
+alt-shift-semicolon = 'move left'
+alt-shift-slash = 'move down'
+alt-shift-leftSquareBracket = 'move up'
+alt-shift-quote = 'move right'
 
 alt-shift-f = 'layout floating tiling'
 
@@ -35,14 +40,14 @@ alt-shift-3 = 'move-node-to-workspace 3'
 alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
-alt-shift-semicolon = 'mode service'
+alt-shift-s = 'mode service'
 
 [mode.service.binding]
 esc = ['reload-config', 'mode main']
 r = ['flatten-workspace-tree', 'mode main']
 backspace = ['close-all-windows-but-current', 'mode main']
 
-alt-shift-left = ['join-with left', 'mode main']
-alt-shift-down = ['join-with down', 'mode main']
-alt-shift-up = ['join-with up', 'mode main']
-alt-shift-right = ['join-with right', 'mode main']
+alt-shift-semicolon = ['join-with left', 'mode main']
+alt-shift-slash = ['join-with down', 'mode main']
+alt-shift-leftSquareBracket = ['join-with up', 'mode main']
+alt-shift-quote = ['join-with right', 'mode main']
