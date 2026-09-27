@@ -1,8 +1,8 @@
 tap "abue-ammar/tinycast", trusted: true
-tap "acsandmann/tap"
 tap "byrencheema/tap", trusted: { casks: ["airstats"] }
 tap "fayazara/tap"
 tap "jithin-sabu/tap"
+tap "nikitabobko/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -19,8 +19,8 @@ brew "stow"
 brew "xcode-build-server"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
-# Tiling window manager for macOS
-brew "acsandmann/tap/rift", trusted: true
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
 # Menu bar system monitor
