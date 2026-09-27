@@ -1,7 +1,7 @@
 -- Curves
-hl.curve("snappy", { type = "bezier", points = { {0.22, 1}, {0.36, 1} } })   -- easeOutQuint
+hl.curve("snappy", { type = "bezier", points = { {0.22, 1}, {0.36, 1} } })
 hl.curve("linear", { type = "bezier", points = { {0, 0}, {1, 1} } })
-hl.curve("smooth", { type = "spring", mass = 1, stiffness = 200, dampening = 23 }) -- ζ ≈ 0.8
+hl.curve("smooth", { type = "spring", mass = 1, stiffness = 200, dampening = 23 })
 
 -- Windows
 hl.animation({ leaf = "windows",     enabled = true, speed = 3,   bezier = "snappy", style = "popin 85%" })
