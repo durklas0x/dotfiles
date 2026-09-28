@@ -1,6 +1,6 @@
 tap "abue-ammar/tinycast", trusted: true
-tap "byrencheema/tap", trusted: { casks: ["airstats"] }
 tap "fayazara/tap"
+tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "nikitabobko/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
@@ -12,16 +12,16 @@ brew "fastfetch"
 brew "pnpm"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# A window border system for macOS
+brew "felixkratz/formulae/borders", trusted: true
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
-# Menu bar system monitor
-cask "airstats"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Collaborative team software
 cask "figma"
-# Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
-cask "mac-mouse-fix@2"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Native macOS menu bar screenshot and screen recording tool
