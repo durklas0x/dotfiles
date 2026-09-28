@@ -1,0 +1,43 @@
+tap "abue-ammar/tinycast", trusted: true
+tap "byrencheema/tap", trusted: { casks: ["airstats"] }
+tap "fayazara/tap"
+tap "nikitabobko/tap"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
+# Menu bar system monitor
+cask "airstats"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# Collaborative team software
+cask "figma"
+# Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
+cask "mac-mouse-fix@2"
+# App to write, plan, collaborate, and get organised
+cask "notion"
+# Native macOS menu bar screenshot and screen recording tool
+cask "fayazara/tap/screendrop", trusted: true
+# Music streaming service
+cask "spotify"
+# Tiny, fully native launcher, hotkeys, and clipboard history
+cask "abue-ammar/tinycast/tinycast", trusted: true
+# Open-source code editor
+cask "visual-studio-code"
+vscode "antfu.theme-vitesse"
+vscode "anthropic.claude-code"
+vscode "astro-build.astro-vscode"
+vscode "bradlc.vscode-tailwindcss"
+vscode "github.vscode-github-actions"
+vscode "llvm-vs-code-extensions.lldb-dap"
+vscode "pkief.material-icon-theme"
+vscode "swiftlang.swift-vscode"
+vscode "tamasfe.even-better-toml"
