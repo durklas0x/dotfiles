@@ -2,7 +2,7 @@
 
 Managed with [GNU Stow](https://www.gnu.org/software/stow/). Each folder is a package that mirrors `$HOME`.
 
-## New Mac
+## New device
 
 ```bash
 git clone https://github.com/martynasgz/dotfiles.git ~/.dotfiles
