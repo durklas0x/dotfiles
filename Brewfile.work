@@ -28,6 +28,8 @@ cask "notion"
 cask "fayazara/tap/screendrop", trusted: true
 # Music streaming service
 cask "spotify"
+# Control windows and applications right from your trackpad
+cask "swish"
 # Tiny, fully native launcher, hotkeys, and clipboard history
 cask "abue-ammar/tinycast/tinycast", trusted: true
 # Open-source code editor
