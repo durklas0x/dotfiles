@@ -14,10 +14,9 @@ after-startup-command = [
   'exec-and-forget borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=4'
 ]
 
+# float all by default
 on-window-detected = [
-    { if.app-id = 'com.spotify.client', run = 'layout floating' },
-    { if.app-id = 'com.apple.Terminal', run = 'layout floating' },
-    { if.app-id = 'com.mitchellh.ghostty', run = 'layout floating' },
+  { check-further-callbacks = true, run = 'layout floating' },
 ]
 
 [mode.main.binding]
