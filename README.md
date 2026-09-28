@@ -7,8 +7,8 @@ Managed with [GNU Stow](https://www.gnu.org/software/stow/). Each folder is a pa
 ```bash
 git clone https://github.com/martynasgz/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-brew bundle install --file=Brewfile
-stow zsh git rift zsh-macos
+brew bundle install --file=Brewfile # or Brewfile.work
+stow zsh aerospace # choose packages
 exec zsh
 ```
 
@@ -29,4 +29,3 @@ cd ~/.dotfiles && stow -nv app && stow app
 ## Notes
 
 - `.stowrc` sets `--no-folding` and ignores `.DS_Store`
-- `Brewfile` updates automatically on `brew install`/`uninstall` (see `zsh-macos`)
