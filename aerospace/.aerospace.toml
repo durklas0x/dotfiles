@@ -30,7 +30,7 @@ alt-shift-slash = 'move down'
 alt-shift-leftSquareBracket = 'move up'
 alt-shift-quote = 'move right'
 
-alt-shift-f = 'layout floating tiling'
+alt-shift-t = 'layout floating tiling'
 
 alt-minus = 'resize smart -50'
 alt-equal = 'resize smart +50'
