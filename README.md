@@ -8,7 +8,7 @@ Managed with [GNU Stow](https://www.gnu.org/software/stow/). Each folder is a pa
 git clone https://github.com/martynasgz/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 brew bundle install --file=Brewfile # or Brewfile.work
-stow zsh aerospace # choose packages
+stow whatever you want # choose packages
 exec zsh
 ```
 

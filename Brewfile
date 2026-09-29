@@ -1,10 +1,6 @@
 tap "abue-ammar/tinycast", trusted: true
-tap "byrencheema/tap", trusted: { casks: ["airstats"] }
-tap "durklas0x/tap", "https://github.com/durklas0x/homebrew-tap.git"
 tap "fayazara/tap"
-tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "jithin-sabu/tap"
-tap "nikitabobko/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -21,14 +17,8 @@ brew "stow"
 brew "xcode-build-server"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
-# A window border system for macOS
-brew "durklas0x/tap/borders", trusted: true
-# AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
-# Menu bar system monitor
-cask "airstats"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Collaborative team software
@@ -47,8 +37,6 @@ cask "opendisplay"
 cask "prismlauncher"
 # Free up your Mac safely by clearing cache and junk to the Trash
 cask "jithin-sabu/tap/purge", trusted: true
-# Imaging utility to install operating systems to a microSD card
-cask "raspberry-pi-imager"
 # Native macOS menu bar screenshot and screen recording tool
 cask "fayazara/tap/screendrop", trusted: true
 # Tool that provides consistent, highly configurable symbols for apps
