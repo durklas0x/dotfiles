@@ -1,5 +1,6 @@
 tap "abue-ammar/tinycast", trusted: true
 tap "byrencheema/tap", trusted: { casks: ["airstats"] }
+tap "durklas0x/tap", "https://github.com/durklas0x/homebrew-tap.git"
 tap "fayazara/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "jithin-sabu/tap"
@@ -21,7 +22,7 @@ brew "xcode-build-server"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
 # A window border system for macOS
-brew "felixkratz/formulae/borders", trusted: true
+brew "durklas0x/tap/borders", trusted: true
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software

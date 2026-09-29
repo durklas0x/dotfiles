@@ -23,8 +23,9 @@ cd ~/.dotfiles && stow -nv app && stow app
 ## Commands
 
 - `stow <pkg>` / `stow -D <pkg>` / `stow -R <pkg>`: link / unlink / relink
-- `brew bundle check`: verify Brewfile is installed
-- `brew bundle cleanup`: show packages not in Brewfile
+- `brew bundle check --file=Brewfile`: verify Brewfile is installed
+- `brew bundle cleanup --file=Brewfile`: show packages not in Brewfile
+- `brew bundle dump --file=Brewfile.current`: dump current packages into a Brewfile
 
 ## Notes
 
