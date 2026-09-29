@@ -23,6 +23,8 @@ cask "affinity"
 cask "claude-code"
 # Collaborative team software
 cask "figma"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Chromium-based web browser
 cask "helium-browser"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
@@ -31,8 +33,6 @@ cask "mac-mouse-fix@2"
 cask "moonlight"
 # App to write, plan, collaborate, and get organised
 cask "notion"
-# Second-display utility for iPhone and iPad over USB and Wi-Fi
-cask "opendisplay"
 # Minecraft launcher
 cask "prismlauncher"
 # Free up your Mac safely by clearing cache and junk to the Trash
