@@ -1,6 +1,6 @@
 tap "abue-ammar/tinycast", trusted: true
+tap "durklas0x/tap"
 tap "fayazara/tap"
-tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "nikitabobko/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
@@ -13,7 +13,7 @@ brew "pnpm"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 # A window border system for macOS
-brew "felixkratz/formulae/borders", trusted: true
+brew "durklas0x/tap/borders", trusted: true
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # Terminal-based AI coding assistant
