@@ -20,10 +20,10 @@ on-window-detected = [
 ]
 
 [mode.main.binding]
-alt-semicolon = 'focus left'
-alt-slash = 'focus down'
-alt-leftSquareBracket = 'focus up'
-alt-quote = 'focus right'
+alt-semicolon = 'focus --ignore-floating left'
+alt-slash = 'focus --ignore-floating down'
+alt-leftSquareBracket = 'focus --ignore-floating up'
+alt-quote = 'focus --ignore-floating right'
 
 alt-shift-semicolon = 'move left'
 alt-shift-slash = 'move down'
