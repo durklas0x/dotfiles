@@ -52,6 +52,13 @@ hl.window_rule({
     size = { 400, 700 },
 })
 
+-- Noctalia Settings
+hl.window_rule({
+    match = { class = "dev.noctalia.Noctalia" },
+    float = true,
+    size = { 1080, 920 },
+})
+
 -- Zen picture-in-picture: small, floating, on every workspace, bottom-right
 hl.window_rule({
     name = "pip",

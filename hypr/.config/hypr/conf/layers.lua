@@ -1,5 +1,10 @@
--- Bar
-hl.layer_rule({ match = { namespace = "waybar" }, blur = true })
-
--- Launcher
-hl.layer_rule({ match = { namespace = "hyprlauncher" }, blur = true, dim_around = true })
+hl.layer_rule({
+  name = "noctalia",
+  match = {
+    namespace = "^noctalia-(bar-.+|notification|dock|panel|attached-panel|osd|window-switcher)$",
+  },
+  no_anim = true,
+  ignore_alpha = 0.5,
+  blur = true,
+  blur_popups = true,
+})
