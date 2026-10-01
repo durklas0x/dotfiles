@@ -29,4 +29,5 @@ cd ~/.dotfiles && stow -nv app && stow app
 
 ## Notes
 
+- `stow noctalia` restores `~/.config/noctalia/config.toml`. GUI changes remain as local overrides in `~/.local/state/noctalia/settings.toml`. Edit the curated config to persist selected changes, and run `noctalia config validate`.
 - `.stowrc` sets `--no-folding` and ignores `.DS_Store`
