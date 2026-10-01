@@ -28,11 +28,3 @@ hl.on('window.open', function(w)
     end
   end)
 end)
-
-hl.on('screenshare.state', function(active, kind, name)
-  hl.notification.create({
-    text    = active and ('Screen sharing started: ' .. tostring(name)) or 'Screen sharing stopped',
-    timeout = active and 6000 or 3000,
-    icon    = active and 'warning' or 'ok',
-  })
-end)

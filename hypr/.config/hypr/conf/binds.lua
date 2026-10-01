@@ -3,6 +3,8 @@ local ipc = 'noctalia msg '
 
 hl.bind(mainMod .. ' + Space', hl.dsp.exec_cmd(ipc .. 'panel-toggle launcher'))
 hl.bind(mainMod .. ' + Tab', hl.dsp.exec_cmd(ipc .. 'window-switcher'))
+hl.bind('Print',
+  hl.dsp.exec_cmd('sh ~/.config/hypr/scripts/screenshot.sh'))
 hl.bind(mainMod .. ' + C', hl.dsp.window.close())
 hl.bind(mainMod .. ' + SHIFT + C', hl.dsp.window.kill())
 hl.bind(mainMod .. ' + V', hl.dsp.window.float({ action = 'toggle' }))
