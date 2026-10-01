@@ -35,7 +35,9 @@ end
 
 -- Scratchpad and cycling through existing workspaces.
 hl.bind(mainMod .. ' + S', hl.dsp.workspace.toggle_special('magic'))
-hl.bind(mainMod .. ' + SHIFT + S', hl.dsp.window.move({ workspace = 'special:magic' }))
+-- Minimize into the scratchpad without switching away from the current workspace.
+hl.bind(mainMod .. ' + SHIFT + S',
+  hl.dsp.window.move({ workspace = 'special:magic', follow = false }))
 hl.bind(mainMod .. ' + mouse_down', hl.dsp.focus({ workspace = 'e+1' }))
 hl.bind(mainMod .. ' + mouse_up', hl.dsp.focus({ workspace = 'e-1' }))
 
