@@ -1,5 +1,5 @@
-hl.on("hyprland.start", function()
-  hl.exec_cmd("noctalia")
+hl.on('hyprland.start', function()
+  hl.exec_cmd('noctalia')
 
   hl.exec_cmd([[
     /bin/sh -c '
