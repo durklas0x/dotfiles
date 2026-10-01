@@ -87,6 +87,9 @@ widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
     show_unlock_hint = true
     show_weather = true
 
+[plugins]
+enabled = [ "noctalia/screen_recorder" ]
+
 [shell]
 font_family = "Adwaita Mono"
 polkit_agent = true
