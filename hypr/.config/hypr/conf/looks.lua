@@ -5,7 +5,7 @@ hl.config({
     gaps_out = 10,
 
     resize_on_border = true,
-    layout = "dwindle",
+    layout = 'dwindle',
   },
 
   decoration = {
