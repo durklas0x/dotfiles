@@ -1,6 +1,7 @@
 local mainMod = 'SUPER'
 local ipc = 'noctalia msg '
 
+hl.bind(mainMod .. ' + T', hl.dsp.exec_cmd('ghostty'))
 hl.bind(mainMod .. ' + Space', hl.dsp.exec_cmd(ipc .. 'panel-toggle launcher'))
 hl.bind(mainMod .. ' + Tab', hl.dsp.exec_cmd(ipc .. 'window-switcher'))
 hl.bind('Print',

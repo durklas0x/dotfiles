@@ -90,6 +90,9 @@ widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
 [plugins]
 enabled = [ "noctalia/screen_recorder" ]
 
+[plugin_settings."noctalia/screen_recorder"]
+resolution = "2560x1440"
+
 [shell]
 font_family = "Adwaita Mono"
 polkit_agent = true
