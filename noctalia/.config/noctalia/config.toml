@@ -15,13 +15,24 @@ show_events_card = false
 [dock]
 background_opacity = 0.7
 concave_edge_corners = false
+cross_axis_padding = 4
 enabled = true
-icon_size = 32
-margin_edge = 12
+icon_size = 24
+item_spacing = 4
+main_axis_padding = 8
+margin_edge = 0
 pinned = [ "org.kde.dolphin", "zen", "com.mitchellh.ghostty", "discord" ]
+radius = 0
+radius_bottom_left = 0
+radius_bottom_right = 0
+radius_top_left = 0
+radius_top_right = 0
 reserve_space = false
 show_dots = true
 smart_auto_hide = true
+
+[location]
+auto_locate = true
 
 [lockscreen]
 blurred_desktop = true
@@ -51,10 +62,10 @@ widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
         [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
         background_color = "surface_variant"
         background_opacity = 0.88
-        background_radius = 12.0
+        background_radius = 0.0
         center_password_text = false
         input_opacity = 1.0
-        input_radius = 6.0
+        input_radius = 0.0
         layout = "regular"
         show_caps_lock = true
         show_keyboard_layout = true
@@ -67,21 +78,21 @@ widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
     [lockscreen_widgets.widget."lockscreen-login-box@STREAM"]
     box_height = 196.0
     box_width = 810.0
-    cx = 1280.0
-    cy = 954.66668701171875
+    cx = 480.0
+    cy = 358.0
     output = "STREAM"
-    placement_height = 1440.0
-    placement_width = 2560.0
+    placement_height = 540.0
+    placement_width = 960.0
     rotation = 0.0
     type = "login_box"
 
         [lockscreen_widgets.widget."lockscreen-login-box@STREAM".settings]
         background_color = "surface_variant"
         background_opacity = 0.88
-        background_radius = 12.0
+        background_radius = 0.0
         center_password_text = false
         input_opacity = 1.0
-        input_radius = 6.0
+        input_radius = 0.0
         layout = "regular"
         show_caps_lock = true
         show_keyboard_layout = true
@@ -93,7 +104,6 @@ widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
 
 [plugin_settings."noctalia/screen_recorder"]
 copy_to_clipboard = true
-# Clipboard pastes reference this temporary video file.
 directory = "/run/user/1000"
 filename_pattern = "noctalia-recording"
 resolution = "2560x1440"
@@ -102,6 +112,7 @@ resolution = "2560x1440"
 enabled = [ "noctalia/screen_recorder" ]
 
 [shell]
+corner_radius_scale = 0.0
 font_family = "Adwaita Mono"
 polkit_agent = true
 
@@ -127,7 +138,7 @@ builtin = "Noctalia"
 community_palette = "Oxocarbon"
 mode = "dark"
 source = "wallpaper"
-wallpaper_scheme = "soft"
+wallpaper_scheme = "muted"
 
     [theme.templates]
     builtin_ids = [ "ghostty", "hyprland" ]
@@ -136,10 +147,13 @@ wallpaper_scheme = "soft"
 directory = "/home/martynas/Downloads"
 
     [wallpaper.default]
-    path = "/home/martynas/Downloads/Paint.jpeg"
+    path = "/home/martynas/Downloads/pexels-alena-beliaeva-78160053-9501393.jpg"
 
     [wallpaper.last]
-    path = "/home/martynas/Downloads/Paint.jpeg"
+    path = "/home/martynas/Downloads/pexels-alena-beliaeva-78160053-9501393.jpg"
 
     [wallpaper.monitors.DP-1]
-    path = "/home/martynas/Downloads/Paint.jpeg"
+    path = "/home/martynas/Downloads/pexels-alena-beliaeva-78160053-9501393.jpg"
+
+    [wallpaper.monitors.STREAM]
+    path = "/home/martynas/Downloads/pexels-alena-beliaeva-78160053-9501393.jpg"

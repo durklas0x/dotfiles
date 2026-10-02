@@ -12,9 +12,9 @@ hl.monitor({
   scale    = 2,
 })
 
-hl.monitor({
-  output   = 'STREAM',
-  mode     = '5120x2880@90',
-  position = '5120x0',
-  scale    = 2,
-})
+-- hl.monitor({
+--   output   = 'STREAM',
+--   mode     = '5120x2880@90',
+--   position = '5120x0',
+--   scale    = 2,
+-- })
