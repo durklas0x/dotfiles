@@ -1,4 +1,4 @@
-require('./conf/*')
+require("./conf/*")
 
 -- For Noctalia Color templates
-require('noctalia').apply_theme()
+require("noctalia").apply_theme()

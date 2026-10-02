@@ -12,5 +12,9 @@ indent_size = 2
 max_line_length = 100
 quote_style = single
 
+[hyprland.lua]
+# Noctalia's template hook checks for a double-quoted require("noctalia").
+quote_style = double
+
 [*.md]
 trim_trailing_whitespace = false
