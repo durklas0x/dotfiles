@@ -18,97 +18,101 @@ concave_edge_corners = false
 enabled = true
 icon_size = 32
 margin_edge = 12
-pinned = [ "zen", "com.mitchellh.ghostty", "discord" ]
+pinned = [ "org.kde.dolphin", "zen", "com.mitchellh.ghostty", "discord" ]
 reserve_space = false
 show_dots = true
 smart_auto_hide = true
+
+[lockscreen]
+blurred_desktop = true
+transition = [ "wipe" ]
 
 [lockscreen_widgets]
 enabled = false
 schema_version = 2
 widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
 
-  [lockscreen_widgets.grid]
-  cell_size = 16
-  major_interval = 4
-  visible = true
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
 
-  [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
-  box_height = 196.0
-  box_width = 810.0
-  cx = 1280.0
-  cy = 1258.0
-  output = "DP-1"
-  placement_height = 1440.0
-  placement_width = 2560.0
-  rotation = 0.0
-  type = "login_box"
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1258.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
 
-    [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
-    background_color = "surface_variant"
-    background_opacity = 0.88
-    background_radius = 12.0
-    center_password_text = false
-    input_opacity = 1.0
-    input_radius = 6.0
-    layout = "regular"
-    show_caps_lock = true
-    show_keyboard_layout = true
-    show_login_button = true
-    show_media = true
-    show_session_buttons = true
-    show_unlock_hint = true
-    show_weather = true
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
 
-  [lockscreen_widgets.widget."lockscreen-login-box@STREAM"]
-  box_height = 196.0
-  box_width = 810.0
-  cx = 1280.0
-  cy = 954.66668701171875
-  output = "STREAM"
-  placement_height = 1440.0
-  placement_width = 2560.0
-  rotation = 0.0
-  type = "login_box"
+    [lockscreen_widgets.widget."lockscreen-login-box@STREAM"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 954.66668701171875
+    output = "STREAM"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
 
-    [lockscreen_widgets.widget."lockscreen-login-box@STREAM".settings]
-    background_color = "surface_variant"
-    background_opacity = 0.88
-    background_radius = 12.0
-    center_password_text = false
-    input_opacity = 1.0
-    input_radius = 6.0
-    layout = "regular"
-    show_caps_lock = true
-    show_keyboard_layout = true
-    show_login_button = true
-    show_media = true
-    show_session_buttons = true
-    show_unlock_hint = true
-    show_weather = true
-
-[plugins]
-enabled = [ "noctalia/screen_recorder" ]
+        [lockscreen_widgets.widget."lockscreen-login-box@STREAM".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
 
 [plugin_settings."noctalia/screen_recorder"]
 resolution = "2560x1440"
+
+[plugins]
+enabled = [ "noctalia/screen_recorder" ]
 
 [shell]
 font_family = "Adwaita Mono"
 polkit_agent = true
 
-  [shell.greeter_sync]
-  auto_sync = true
+    [shell.greeter_sync]
+    auto_sync = true
 
-  [shell.launcher]
-  categories = false
+    [shell.launcher]
+    categories = false
 
-  [shell.panel]
-  open_near_click_control_center = true
+    [shell.panel]
+    open_near_click_control_center = true
 
-  [shell.window_switcher]
-  mru = true
-  show_count = false
+    [shell.window_switcher]
+    mru = true
+    show_count = false
 
 [theme]
 builtin = "Noctalia"
@@ -117,17 +121,17 @@ mode = "dark"
 source = "wallpaper"
 wallpaper_scheme = "soft"
 
-  [theme.templates]
-  builtin_ids = [ "ghostty", "hyprland" ]
+    [theme.templates]
+    builtin_ids = [ "ghostty", "hyprland" ]
 
 [wallpaper]
 directory = "/home/martynas/Downloads"
 
-  [wallpaper.default]
-  path = "/home/martynas/Downloads/Paint.jpeg"
+    [wallpaper.default]
+    path = "/home/martynas/Downloads/Paint.jpeg"
 
-  [wallpaper.last]
-  path = "/home/martynas/Downloads/Paint.jpeg"
+    [wallpaper.last]
+    path = "/home/martynas/Downloads/Paint.jpeg"
 
-  [wallpaper.monitors.DP-1]
-  path = "/home/martynas/Downloads/Paint.jpeg"
+    [wallpaper.monitors.DP-1]
+    path = "/home/martynas/Downloads/Paint.jpeg"

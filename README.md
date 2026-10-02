@@ -26,8 +26,9 @@ cd ~/.dotfiles && stow -nv app && stow app
 - `brew bundle check --file=Brewfile`: verify Brewfile is installed
 - `brew bundle cleanup --file=Brewfile`: show packages not in Brewfile
 - `brew bundle dump --file=Brewfile.current`: dump current packages into a Brewfile
+- `noctalia-export`: export merged Noctalia config, including GUI overrides, into the dotfiles package and validate it before saving. Available after sourcing `~/.zshrc`.
 
 ## Notes
 
-- `stow noctalia` restores `~/.config/noctalia/config.toml`. GUI changes remain as local overrides in `~/.local/state/noctalia/settings.toml`. Edit the curated config to persist selected changes, and run `noctalia config validate`.
+- `stow noctalia` restores `~/.config/noctalia/config.toml`. GUI changes remain as local overrides in `~/.local/state/noctalia/settings.toml`. Run `noctalia-export` to save these changes into the tracked config; local overrides remain in place.
 - `.stowrc` sets `--no-folding` and ignores `.DS_Store`
