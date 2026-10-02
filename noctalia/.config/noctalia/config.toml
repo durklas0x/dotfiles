@@ -92,6 +92,10 @@ widget_order = [ "lockscreen-login-box@STREAM", "lockscreen-login-box@DP-1" ]
         show_weather = true
 
 [plugin_settings."noctalia/screen_recorder"]
+copy_to_clipboard = true
+# Clipboard pastes reference this temporary video file.
+directory = "/run/user/1000"
+filename_pattern = "noctalia-recording"
 resolution = "2560x1440"
 
 [plugins]
@@ -109,6 +113,10 @@ polkit_agent = true
 
     [shell.panel]
     open_near_click_control_center = true
+
+    [shell.screenshot]
+    copy_to_clipboard = true
+    save_to_file = false
 
     [shell.window_switcher]
     mru = true
