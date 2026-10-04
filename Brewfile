@@ -1,14 +1,17 @@
-tap "abue-ammar/tinycast", trusted: true
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Mac App Store command-line interface
 brew "mas"
+# Development kit for the Java programming language
+brew "openjdk"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -21,6 +24,10 @@ brew "xcodegen"
 cask "affinity"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Drag and drop file shelf
+cask "droppy"
 # Collaborative team software
 cask "figma"
 # Terminal emulator that uses platform-native UI and GPU acceleration
@@ -43,8 +50,6 @@ cask "steam"
 cask "stremio"
 # Control windows and applications right from your trackpad
 cask "swish"
-# Tiny, fully native launcher, hotkeys, and clipboard history
-cask "abue-ammar/tinycast/tinycast"
 # Open-source code editor
 cask "visual-studio-code"
 # Menu bar toolkit with keep-awake, system monitor and volume mixer
@@ -59,6 +64,7 @@ vscode "anthropic.claude-code"
 vscode "astro-build.astro-vscode"
 vscode "bradlc.vscode-tailwindcss"
 vscode "github.vscode-github-actions"
+vscode "jebbs.plantuml"
 vscode "llvm-vs-code-extensions.lldb-dap"
 vscode "pkief.material-icon-theme"
 vscode "swiftlang.swift-vscode"
