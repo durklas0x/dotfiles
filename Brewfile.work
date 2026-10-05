@@ -16,8 +16,6 @@ cask "claude-code"
 cask "figma"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
-cask "mac-mouse-fix@2"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Native macOS menu bar screenshot and screen recording tool
@@ -30,6 +28,8 @@ cask "swish"
 cask "abue-ammar/tinycast/tinycast", trusted: true
 # Open-source code editor
 cask "visual-studio-code"
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
 vscode "antfu.theme-vitesse"
 vscode "anthropic.claude-code"
 vscode "astro-build.astro-vscode"
