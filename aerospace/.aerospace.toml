@@ -7,9 +7,9 @@ gaps.inner.horizontal = 4
 gaps.inner.vertical = 4
 
 # float all by default
-# on-window-detected = [
-#   { check-further-callbacks = true, run = 'layout floating' },
-# ]
+on-window-detected = [
+  { check-further-callbacks = true, run = 'layout floating' },
+]
 
 [mode.main.binding]
 alt-semicolon = 'focus --ignore-floating left'

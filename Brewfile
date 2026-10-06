@@ -1,17 +1,14 @@
+tap "nikitabobko/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
-# Play, record, convert, and stream select audio and video codecs
-brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Mac App Store command-line interface
 brew "mas"
-# Development kit for the Java programming language
-brew "openjdk"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -20,8 +17,12 @@ brew "stow"
 brew "xcode-build-server"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
+# Display management tool
+cask "betterdisplay"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
