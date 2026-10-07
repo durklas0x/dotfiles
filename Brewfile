@@ -1,3 +1,4 @@
+tap "durklas0x/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -20,6 +21,8 @@ brew "xcodegen"
 cask "affinity"
 # Display management tool
 cask "betterdisplay"
+# Elegant Facebook Messenger desktop app
+cask "durklas0x/tap/caprine", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
