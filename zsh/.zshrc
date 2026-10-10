@@ -1,5 +1,7 @@
 alias p="pnpm"
 alias b="brew"
+alias bi="brew install"
+alias bun="brew uninstall --zap"
 
 # Save Noctalia config and GUI overrides into the Stow package.
 noctalia-export() {

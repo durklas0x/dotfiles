@@ -27,14 +27,16 @@ cask "durklas0x/tap/caprine", trusted: true
 cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Menu bar app for tracking agentic coding limits and usage
+cask "codexbar"
+# Voice and text chat software
+cask "discord"
 # Drag and drop file shelf
 cask "droppy"
 # Collaborative team software
 cask "figma"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Chromium-based web browser
-cask "helium-browser"
 # GameStream client
 cask "moonlight"
 # App to write, plan, collaborate, and get organised
@@ -57,6 +59,8 @@ cask "visual-studio-code"
 cask "vorssaint"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Gecko based web browser
+cask "zen"
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Xcode", id: 497799835
@@ -70,3 +74,4 @@ vscode "llvm-vs-code-extensions.lldb-dap"
 vscode "pkief.material-icon-theme"
 vscode "swiftlang.swift-vscode"
 vscode "tamasfe.even-better-toml"
+vscode "vscodevim.vim"
