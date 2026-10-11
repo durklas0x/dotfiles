@@ -1,4 +1,6 @@
+tap "abue-ammar/tinycast"
 tap "durklas0x/tap"
+tap "nikitabobko/tap"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -17,6 +19,8 @@ brew "stow"
 brew "xcode-build-server"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
 # Display management tool
@@ -53,6 +57,8 @@ cask "steam"
 cask "stremio"
 # Control windows and applications right from your trackpad
 cask "swish"
+# Tiny, fully native launcher, hotkeys, and clipboard history
+cask "abue-ammar/tinycast/tinycast", trusted: true
 # Open-source code editor
 cask "visual-studio-code"
 # Menu bar toolkit with keep-awake, system monitor and volume mixer
@@ -74,4 +80,3 @@ vscode "llvm-vs-code-extensions.lldb-dap"
 vscode "pkief.material-icon-theme"
 vscode "swiftlang.swift-vscode"
 vscode "tamasfe.even-better-toml"
-vscode "vscodevim.vim"
