@@ -47,6 +47,8 @@ cask "moonlight"
 cask "notion"
 # Minecraft launcher
 cask "prismlauncher"
+# Finder's little sidekick with an editable path bar and quick folder actions
+cask "durklas0x/tap/robin", trusted: true
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # Music streaming service
