@@ -1,4 +1,4 @@
--- Plugin permissions must be registered before cursor.lua loads the plugin.
+-- Register permissions before loading the remaining configuration.
 require("./conf/perms")
 require("./conf/*")
 
